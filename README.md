@@ -1,4 +1,16 @@
-My playground for as-close-to-native-while-still-being-fun OpenGL applications. 
+My playground for as-close-to-native-while-still-being-fun OpenGL applications.
+
+# build
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+# Create symbolic link to assets folder by hand for now. FIXME: CMake
+# should do this eventually. 
+ln -s ../assets assets
+```
 
 # Linux dependencies
 
