@@ -1,0 +1,6 @@
+[submodule "dependencies/glfw"]
+	path = dependencies/glfw
+	url = git@github.com:glfw/glfw
+[submodule "dependencies/glbinding"]
+	path = dependencies/glbinding
+	url = git@github.com:cginternals/glbinding
