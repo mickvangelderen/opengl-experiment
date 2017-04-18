@@ -8,8 +8,9 @@ cd build
 cmake ..
 cmake --build .
 # Create symbolic link to assets folder by hand for now. FIXME: CMake
-# should do this eventually. 
+# should do this eventually.
 ln -s ../assets assets
+# WINDOWS: mklink /d assets ../assets
 ```
 
 # Linux dependencies
